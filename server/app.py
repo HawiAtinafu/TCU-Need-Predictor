@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from ML_Predictor import Predictor, PredictorError
 
-# Command to enable constant server updates without downtime: flask --app app.py --debug run
 
 # Initialize Flask application
 app = Flask(__name__)

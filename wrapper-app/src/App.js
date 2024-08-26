@@ -89,7 +89,6 @@ export default function App() {
           {error && <p className="error">{error}</p>}
           {error && <p className="error">{errorMessage}</p>}
 
-          {/* Display prediction result if available */}
           {predictionResult !== null && (
             <p className="result">
               Prediction Result:{" "}
