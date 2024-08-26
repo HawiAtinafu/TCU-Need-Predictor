@@ -1,0 +1,18 @@
+# We want to ignore anything with potential data
+
+# Ignore all csv and xlsx files, pickle files, and jupyter notebooks
+*.csv
+*.xlsx
+*.pkl
+*.ipynb
+
+# Ignore __pycache__ 
+__pycache__/
+
+# Ignore our specific data files
+# Important: DO NOT CHANGE THE NAME OF THIS FILE!
+Minnesota_inpatient_discharges_deidentified.csv
+Minnesota_inpatient_discharges_deidentified.xlsx
+
+# Ignore venv
+Mayo-TCU-Need-Predictor/server/venv
